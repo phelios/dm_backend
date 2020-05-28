@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+cd $(dirname $0)/..
+
+docker-compose down --volumes --remove-orphans
+
+docker-compose build db
+docker-compose up -d db
