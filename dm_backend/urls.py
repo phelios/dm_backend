@@ -15,8 +15,6 @@ Including another URLconf
 """
 from django.urls import include, path
 
-from api import urls
-
 urlpatterns = [
-    path('', include('api.urls'))
+    path('api/', include('api.urls'))
 ]
