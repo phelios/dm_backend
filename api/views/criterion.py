@@ -4,7 +4,7 @@ from rest_framework import generics
 
 
 class CriterionList(generics.ListCreateAPIView):
-    queryset = Criterion.objects.all()
+    queryset = Criterion.objects.all().order_by('pk')
     serializer_class = CriterionSerializer
 
 
