@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:5000",
+    "http://dm.sufendy.com/"
 ]
 
 # Application definition
