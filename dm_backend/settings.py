@@ -133,3 +133,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 if os.environ.get('HEROKU', False):
     DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
