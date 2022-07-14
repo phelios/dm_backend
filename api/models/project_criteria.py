@@ -5,5 +5,6 @@ from api.models.criterion import Criterion
 
 
 class ProjectCriteria(models.Model):
-    project = models.ForeignKey(Project, on_delete=models.CASCADE)
-    criterion = models.ForeignKey(Criterion, on_delete=models.CASCADE)
+    project_id = models.ForeignKey(Project, on_delete=models.CASCADE)
+    criterion_id = models.ForeignKey(Criterion, on_delete=models.CASCADE)
+    weight = models.IntegerField()

@@ -6,4 +6,4 @@ from api.models.criterion import Criterion
 class CriterionSerializer(ModelSerializer):
     class Meta:
         model = Criterion
-        fields = ['id', 'name', 'weight']
+        fields = ['id', 'name']
