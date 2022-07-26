@@ -1,0 +1,1 @@
+[{"model": "api.criterion", "pk": 1, "fields": {"name": "Pays well"}}, {"model": "api.criterion", "pk": 2, "fields": {"name": "Meaningful"}}, {"model": "api.criterion", "pk": 3, "fields": {"name": "In the same timezone"}}, {"model": "api.criterion", "pk": 4, "fields": {"name": "Interesting data"}}]

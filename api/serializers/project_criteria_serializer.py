@@ -6,4 +6,4 @@ from api.models.project_criteria import ProjectCriteria
 class ProjectCriteriaSerializer(ModelSerializer):
     class Meta:
         model = ProjectCriteria
-        fields = ['id', 'project', 'criterion', 'weight']
+        fields = ['id', 'project_id', 'criterion_id', 'weight']
