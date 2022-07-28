@@ -1,1 +1,1 @@
-[{"model": "api.category", "pk": 1, "fields": {"name": "Real Estate"}}, {"model": "api.category", "pk": 2, "fields": {"name": "Travel"}}]
+[{"model": "api.category", "pk": 1, "fields": {"name": "Real Estate"}}, {"model": "api.category", "pk": 2, "fields": {"name": "Travel"}}, {"model": "api.category", "pk": 3, "fields": {"name": "Job"}}]
