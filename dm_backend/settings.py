@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:5000",
-    "http://dm.sufendy.com"
+    "https://pz-dm-web.herokuapp.com"
 ]
 
 # Application definition
